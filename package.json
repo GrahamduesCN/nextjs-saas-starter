@@ -1,15 +1,8 @@
 {
   "name": "nextjs-saas-starter",
-  "version": "0.1.0",
-  "description": "Production-ready Next.js SaaS starter with authentication, payments, and AI integration",
-  "keywords": [
-    "nextjs",
-    "saas",
-    "starter",
-    "template",
-    "tailwindcss",
-    "typescript"
-  ],
+  "version": "0.2.0",
+  "description": "Production-ready Next.js 14 SaaS starter with App Router, Tailwind CSS, authentication pages, and Stripe-ready billing",
+  "keywords": ["nextjs", "saas", "starter", "react", "tailwindcss", "typescript"],
   "license": "MIT",
   "author": "GrahamduesCN",
   "repository": {
@@ -20,20 +13,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "vitest",
-    "lint": "eslint src/",
-    "format": "prettier --write src/"
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
-    "next": "^14.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
   },
   "devDependencies": {
     "typescript": "^5.4.0",
-    "tsx": "^4.0.0",
-    "vitest": "^1.0.0",
     "@types/node": "^20.0.0",
-    "tailwindcss": "^3.0.0"
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "vitest": "^1.0.0"
   }
 }
