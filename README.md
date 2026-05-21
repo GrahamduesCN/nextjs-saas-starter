@@ -101,4 +101,12 @@ MIT
 
 ---
 
-Built with Next.js 14, React 18, Tailwind CSS, and TypeScript.
+## Related Projects
+
+| Project | Description |
+|---------|-------------|
+| [ai-agent-starter](https://github.com/GrahamduesCN/ai-agent-starter) | Multi-provider AI agent framework |
+| [dev-cli-kit](https://github.com/GrahamduesCN/dev-cli-kit) | Developer CLI toolkit |
+| [ai-chat-saas](https://github.com/GrahamduesCN/ai-chat-saas) | AI chat app built on this starter ($19 template) |
+
+Built with Next.js 14, React 18, Tailwind CSS, and TypeScript.Built with Next.js 14, React 18, Tailwind CSS, and TypeScript.
